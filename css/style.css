@@ -1,0 +1,38 @@
+body{
+    background: green;
+}
+
+.carta{
+    width: 360px;
+    height: 540px;
+    background: white;
+    border-radius: 20px;
+    margin: auto;
+   
+}
+
+.pinta::before{
+    content: attr(simbolo) ;
+    
+}
+
+.pinta-arriba{
+    
+    font-size: 7em; 
+    margin-left: 20px;
+}
+
+.valor{
+    font-size: 10em;
+    text-align: center;
+    margin-top: -115px;
+}
+
+.pinta-abajo{
+    font-size: 7em;
+    position: relative;
+    top: -105px;
+    margin-right: 20px;
+      transform: rotate(-180deg); 
+  
+}
